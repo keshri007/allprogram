@@ -1,0 +1,500 @@
+   64  jobs
+   65  job
+   66  jobs --help
+   67  jobs -p
+   68  pwd $?
+   69  echo $?
+   70  printenv
+   71  ls /
+   72  cd usr
+   73  cd usr/
+   74  ls -l
+   75  ls /
+   76  cd abc
+   77  cd ..
+   78  cd ~
+   79  pwd
+   80  cd abhishek
+   81  ls -l
+   82  cd practice
+   83  ls -l
+   84  cp /c/Users/Admin/abhishek/data.csv /c/Users/Admin/abhishek/practice/data.csv
+   85  ls *.csv
+   86  cd ..
+   87  mv access ip.log access.log
+   88  mv access ip.log /c/Users/Admin/abhishek/access.log
+   89  mv /c/Users/Admin/abhishek/access ip.log /c/Users/Admin/abhishek/access.log
+   90  mv /c/Users/Admin/abhishek/'access ip.log' /c/Users/Admin/abhishek/access.log
+   91  ls -l
+   92  cp access.log /c/Users/Admin/abhishek/practice/access.log
+   93  cd practice
+   94  ls -l
+   95  cat data.csv
+   96  cat access.log
+   97  clear
+   98  cd abhishek
+   99  cd practic
+  100  cd practice
+  101  ls -l
+  102  mkdir day3
+  103  mv access.log /c/Users/Admin/abhishek/practice/day3/access.log
+  104  ls */day3
+  105  cd day3
+  106  ls -l
+  107  cd ..
+  108  mv access.log /c/Users/Admin/abhishek/practice/day3/data.csv
+  109  mv data.csv /c/Users/Admin/abhishek/practice/day3/data.csv
+  110  cd day3
+  111  ls -l
+  112  ls -l
+  113  cd ..
+  114  ls -l
+  115  rm ghi.log.1,
+  116  ls -l
+  117  clear
+  118  ls -l
+  119  cd day3
+  120  ls -l
+  121  ls -al
+  122  clear
+  123  ls -al
+  124  cat checkdir.sh
+  125  cat > chechdir.sh
+  126  cat > checkdir.sh
+  127  cat  checkdir.sh
+  128  nano -T 3  checkdir.sh
+  129  cat checkdir.sh
+  130  ./checkdir.sh
+  131  nano -T 3  checkdir.sh
+  132  ./checkdir.sh
+  133  rmdir zar
+  134  ./checkdir.sh
+  135  ls -l
+  136  nano -T 3  checkdir.sh
+  137  rmdir zar
+  138  ls -l
+  139  ./checkdir.sh
+  140  ls -l
+  141  cat abc.log.1
+  142  ps elf
+  143  cat data.csv
+  144  cat data.asv | awk '{print ($4>1000)}'
+  145  cat data.asv | awk '{print $4>1000}'
+  146  cat data.asv | awk '{$4>1000}{print $4}'
+  147  cat data.asv | awk '{print $4}'
+  148  cat data.csv | awk '{print $4}'
+  149  cat data.csv | awk '{a= $>1000}{print $4}'
+  150  cat data.csv | awk '{$>1000}{print $4}'
+  151  cat data.csv | awk '{$ -gt 1000}{print $4}'
+  152  cat data.csv | awk '{$4 -gt 1000}{print $4}'
+  153  cat data.csv | awk '{$4 -gt 10000}{print $4}'
+  154  cat data.csv | awk '{$4 -gt 100000}{print $4}'
+  155  cat data.csv | awk '{sum=($4 -gt 1000000}{print sum}'
+  156  clear
+  157  cat data.csv
+  158  cat data.csv | awk '{print $1}'
+  159  cat data.csv | awk '{print $2}'
+  160  cat data.csv | awk '{print $3}'
+  161  cat data.csv | awk '{print $5}'
+  162  cat data.csv | awk '{sum+=$4}{print sum}'
+  163  cat data.csv | awk '{print $0}'
+  164  cat data.csv | awk '{sum+=$4}{print sum}'
+  165  cat data.csv | awk '{sum+=$4}END{print sum}'
+  166  cat data.csv | awk '{sum+=$4}BEGIN{print sum}'
+  167  cat data.csv | awk '{sum+=$4}{print sum/NR}'
+  168  cat data.csv | awk '{sum+=$4}END{print sum/NR}'
+  169  cat data.csv | awk '{sum+=$4}END{print sum/NN}'
+  170  cat data.csv | awk '{sum+=$4}END{print sum/RR}'
+  171  cat data.csv | awk '{sum+=$4}END{print sum/NR}'
+  172  clear
+  173  ls -l
+  174  cat data.csv | head
+  175  cat data.csv | awk '{sum+=$4}END{print sum/NR}'
+  176  cat data.csv | awk '{sum+=$4}{print sum/NR}'
+  177  cat data.csv | awk '{sum+=$4}{print sum}'
+  178  clear
+  179  ls -l
+  180  cat chechdir.h
+  181  cat chechdir.sh
+  182  rm chechdir.sh
+  183  ls -l
+  184  clear
+  185  l s-l
+  186  ls -l
+  187  cat data.csv
+  188  cat data.csv | awk '$4>10000 {print ;}'
+  189  cat data.csv | awk '$4>10000 {print ;}' | more
+  190  cat data.csv | awk '$4>10000 {print}' | more
+  191  cat data.csv | awk '$4>10000 {print}'
+  192  cat data.csv | awk '{$4>10000} {print ;}'
+  193  cat data.csv | awk '{$4>10000}'
+  194  cat data.csv | awk '$4>100000 {print ;}'
+  195  cat data.csv | awk '$4>100000 {print}'
+  196  cat data.csv | awk '{print $4>10000}'
+  197  cat data.csv | awk '{print $4>10000;}'
+  198  cat data.csv | awk '{print; $4>10000;}'
+  199  cat data.csv | awk '{$4>10000}{print;}'
+  200  cat data.csv | awk '$4>10000{print;}'
+  201  cat data.csv | awk '$4>10000 {print;}'
+  202  cat data.csv | awk '{$4>100000}{print;}'
+  203  cat data.csv | awk '{$4>100000} {print;}'
+  204  cat data.csv | awk '$4>100000 {print;}'
+  205  clear
+  206  cat data.csv
+  207  cat data.csv | awk '$5>0'
+  208  cat data.csv | awk '$5>0 {print ;}'
+  209  cat data.csv | awk '$5>0 {print}'
+  210  clear
+  211  cat data.csv
+  212  cat data.csv | awk '$5>0 {print $2 $7}'
+  213  cat data.csv | awk '$4>100000 {print $2 $7}'
+  214  cat data.csv | awk '$4>100000 {print $2" "$7}'
+  215  cat data.csv | awk '$4>100000 {print $2" "$4" "$7}'
+  216  cat data.csv | awk '$4>100000 {print $2"          "$4"            "$7}'
+  217  cat data.csv | awk '$4>100000 {print $2"     "$4"    "$7}'
+  218  cat data.csv | awk '{print $2"         "$7}'
+  219  cat data.csv |grep -i captain | awk '{print $0}'
+  220  cat data.csv |grep -i captain | awk '{sum=+$7}{print sum}'
+  221  cat data.csv | grep -i captain | awk 'sum=+$7 {print sum}'
+  222  cat data.csv | grep -i captain | awk 'sum=+$7 {print sum}'
+  223  cat data.csv |  grep -i captain 
+  224  cd abhishek 
+  225  cd practice
+  226  cd day3
+  227  ls -l
+  228  rm 10000
+  229  ls -l
+  230  mkdir original updated
+  231  ls */
+  232  touch /original/original-file.sh
+  233  cd original
+  234  touch original-file.sh
+  235  ls
+  236  cd ..
+  237  cd updated
+  238  touch updated-file.sh
+  239  cd ..
+  240  ls -l
+  241  mkdir cporiginal
+  242  cp /original /c/Users/Admin/abhishek/practice/day3/cporiginal
+  243  cp original /c/Users/Admin/abhishek/practice/day3/cporiginal
+  244  cp original/ /c/Users/Admin/abhishek/practice/day3/cporiginal
+  245  cp -r original /c/Users/Admin/abhishek/practice/day3/cporiginal
+  246  ls /cporiginal
+  247  ls */cporiginal
+  248  ls *./cporiginal
+  249  ls ./cporiginal
+  250  cd original
+  251  ls
+  252  cd ..
+  253  cd cporiginal
+  254  ls
+  255  ls ./cporiginal/
+  256  clear
+  257  cd ..
+  258  ls
+  259  diff -q original/ updated/
+  260  mv cporiginal/ backup-original
+  261  ls -l
+  262  cd backup-original
+  263  ls
+  264  cd ..
+  265  cd original 
+  266  ls
+  267  cd ..
+  268  nano -T 3 /original/original-file.sh
+  269  ls
+  270  cd original
+  271  nano original-file.sh
+  272  cat original-file.sh
+  273  ls 
+  274  cd ..
+  275  diff -q original/ backup-original
+  276  diff -q original/ backup-original/original
+  277  whereis ls
+  278  whereis ls /bin
+  279  whereis /bin/ls
+  280  ls /bin
+  281  ls -l /etc/passwd
+  282  cd ..
+  283  cd ..
+  284  cd ..
+  285  ls -l /etc/passwd
+  286  cd abhishek
+  287  cd practice
+  288  cd day3
+  289  ls
+  290  rm backup-original
+  291  rm -r backup-original
+  292  ls 
+  293  cd original
+  294  ls
+  295  cd ..
+  296  mkdir backup-original
+  297  ls 
+  298  ln -s original backup-original
+  299  cp original /c/Users/Admin/abhishek/practice/day3/backup-original/
+  300  cp -r original /c/Users/Admin/abhishek/practice/day3/backup-original/
+  301  cd original-backup
+  302  cd backup-original
+  303  ls
+  304  cd original
+  305  ls
+  306  diff -q /c/Users/Admin/abhishek/pratice/day3/original /c/Users/Admin/abhishek/practice/day3/backup-original
+  307  cd ..
+  308  cd ..
+  309  cd ..
+  310  cd day3
+  311  ls
+  312  ln -s original backup-original
+  313  cd backup-original
+  314  cd original
+  315  ls
+  316  rm original-file.s
+  317  ls
+  318  cd ..
+  319  cd ..
+  320  ln -s original backup-original
+  321  ln -s original backup-original/
+  322  cd backup-original
+  323  rmdir original
+  324  ls
+  325  cd ..
+  326  ln -s original backup-original
+  327  ln -s original backup-original/
+  328  echo $?
+  329  history
+  330  cd abhishek
+  331  ls
+  332  history > his.txt
+  333  cat his.txt
+  334  whereis
+  335  cd  ..
+  336  ls /bin
+  337  ls /log
+  338  ls /var
+  339  ls /bin
+  340  cd ..
+  341  ls /log
+  342  cd ..
+  343  ls /log
+  344  cd ..
+  345  ls /log
+  346  cd ..
+  347  pwd
+  348  ls /log
+  349  cd ..
+  350  pwd
+  351  cd c
+  352  cd Users
+  353  cd Admin
+  354  pwd
+  355  sudo ls /var/log
+  356  clear
+  357  cd abhishek
+  358  ls
+  359  cd practice
+  360  ls
+  361  cd day3
+  362  ls
+  363  cd ..
+  364  cd ..
+  365  ls
+  366  cd terminalcommand
+  367  ls
+  368  cd linux-content
+  369  ls
+  370  cd ..
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd pracatice
+  375  cd practice
+  376  ls
+  377  cd day3
+  378  ls
+  379  cat access.log
+  380  cat access.log | grep -i url
+  381  cat access.log | grep -i urls
+  382  cat access.log | grep URL
+  383  cat access.log | grep URLS
+  384  cat access.log | grep url
+  385  cat access.log | grep urls
+  386  cat access.log | grep -i http
+  387  cat access.log | grep -i .http
+  388  sort access.log | grep -i http
+  389  clear
+  390  sort access.log
+  391  sort | uniq access.log
+  392  clear
+  393  where git
+  394  ls /bin
+  395  ls /bin | grep ls
+  396  ls /bin | grep whereis
+  397  ls /bin | grep git where
+  398  ls /bin | grep gitwhere
+  399  ls /bin | grep where git
+  400  man -ls
+  401  ls --help
+  402  sort --help
+  403  sort access.log | uniq
+  404  sort access.log | uniq -c
+  405  uniq -c access.log | awk '{print $1 " " $2}'
+  406  sort access.log | awk '{print $1 " " $2}'
+  407  sort access.log | awk '{print $1}'
+  408  sort access.log | uniq -c |awk '{print $1" "$2}'
+  409  cd abhishek
+  410  cd practcice
+  411  cd practice
+  412  ls
+  413  cat randomminmax.sh
+  414  ls
+  415  cat arith.sh
+  416  ./arith.sh
+  417  clear
+  418  ls
+  419  cd day3
+  420  ls
+  421  cat access.log
+  422  sort access.log | unniq -c 
+  423  sort access.log | uniq -c |awk '{print $1" "$2}'
+  424  cat access.log
+  425  sort access.log | uniq -c |awk '{print $1" "$2" "$5}'
+  426  cat access.log
+  427  sort access.log | uniq -c |awk '{print $1" "$2" "$7}' | head
+  428  sort access.log | uniq -c |awk '{print $1" "$2" "$11}' | head
+  429  sort access.log | uniq -c |awk '{print $1" "$2" "$112}' | head
+  430  sort access.log | uniq -c |awk '{print $1" "$2" "$12}' | head
+  431  sort access.log | uniq -c |awk '{print $1" "$2" "$12}' | tail
+  432  sort access.log | uniq -c |awk '{print $1" "$2" "$12}' | tail -1
+  433  access.log | sort | uniq -c |awk '{print $1" "$2" "$12}' | tail
+  434  sort access.log | uniq -c |awk '{print $1" "$2" "$12}' | tail
+  435  uniq --help
+  436  sort access.log | uniq -u |awk '{print $1" "$2" "$12}' | tail
+  437  sort access.log | uniq -c -u |awk '{print $1" "$2" "$12}' | tail
+  438  sort -u access.log |awk '{print $1" "$2" "$12}' | tail
+  439  sort -u access.log |awk '{print $1" "$2" "$14}' | tail
+  440  sort -u access.log |awk '{print $1" "$2" "$15}' | tail
+  441  sort -u access.log |awk '{print $1" "$2" "$16}' | tail
+  442  sort -u access.log |awk '{print $1" "$2" "$17}' | tail
+  443  sort -u access.log |awk '{print $1" "$2" "$18}' | tail
+  444  sort -u access.log |awk '{print $1" "$2" "$10}' | tail
+  445  sort access.log |awk '{print $0}' | tail
+  446  sort access.log |awk '{print $1}' | tail
+  447  sort access.log |awk '{print $1}' | tail -3
+  448  sort access.log |awk '{print $0}' | tail -3
+  449  sort access.log |awk '{print $1}' | tail -3
+  450  sort access.log |awk '{print $2}' | tail -3
+  451  sort access.log |awk '{print $3}' | tail -3
+  452  sort access.log |awk '{print $4}' | tail -3
+  453  sort access.log |awk '{print $5}' | tail -3
+  454  sort access.log |awk '{print $6}' | tail -3
+  455  sort access.log |awk '{print $7}' | tail -3
+  456  sort access.log |awk '{print $0}' | tail -3
+  457  sort access.log |awk '{print $8}' | tail -3
+  458  sort access.log |awk '{print $9}' | tail -3
+  459  sort access.log |awk '{print $10}' | tail -3
+  460  sort access.log |awk '{print $11}' | tail -3
+  461  sort access.log |awk '{print $11 $12}' | tail -3
+  462  sort access.log |awk '{print $11 $12 $13}' | tail -3
+  463  sort access.log |awk '{print $11 $12 $13 $14}' | tail -3
+  464  sort access.log |awk '{print $11 $12 $13 $14 $15}' | tail -3
+  465  sort access.log |awk '{print $11 $12 $13 $14 $19}' | tail -3
+  466  sort access.log |awk '{print $11}' | tail -3
+  467  sort access.log | uniq |awk '{print $1 $11}' | tail -3
+  468  sort access.log | uniq -c |awk '{print $1 $11}' | tail -3
+  469  sort access.log | uniq -c |awk '{print $1" "$11}' | tail -3
+  470  sort access.log | uniq -c |awk '{print $1" "$12}' | tail -3
+  471  sort access.log | uniq -c |awk '{print $1" "$12}' | tail -15
+  472  sort access.log | uniq -c |awk '{print $1" "$12}' | tail -100
+  473  sort access.log | uniq -c |awk '{print $1" "$12}' | head -100
+  474  sort access.log | grep -i urls | uniq -c |awk '{print $1" "$12}' | head -100
+  475  sort -n access.log | grep -i urls | uniq -c |awk '{print $1" "$12}' | head -100
+  476  sort -n access.log | uniq -c |awk '{print $1" "$12}' | head -100
+  477  awk --help
+  478  find . -ntime +7
+  479  find . -time +7
+  480  time --help
+  481  time --help
+  482  ntime --help
+  483  ps -elf
+  484  ps -o elf
+  485  ps --help
+  486  ps -a 
+  487  ps -p
+  488  ps -elf
+  489  ps au
+  490  ps aux
+  491  ps --help
+  492  clear
+  493  cat > test.txt
+  494  cat test.txt
+  495  uniq test.txt
+  496  uniq -c test.txt
+  497  clear
+  498  uniq -c access.log
+  499  uniq -c access.log | head
+  500  uniq -c access.log | head
+  501  clear
+  502  cd abhishek
+  503  cd practice
+  504  cd day3
+  505  ls
+  506  uniq test.txt
+  507  uniq -c test.txt
+  508  cat test.txt
+  509  cat test.txt | uniq
+  510  cat test.txt | uniq | awk 'print{$1}'
+  511  cat test.txt | uniq | awk '{print $1}'
+  512  cat test.txt | uniq -c | awk '{print $1}'
+  513  cat access.log
+  514  cat access.log | uniq -c | awk '{print $12}' | head
+  515  cat access.log | uniq -c | awk '{print $15}' | head
+  516  cat access.log | uniq -c | awk '{print $15}' | tail
+  517  cat access.log | uniq -c | awk '{print $12}' | tail
+  518  cat access.log | uniq -c | awk '{print $11}' | tail
+  519  cat access.log | uniq -c | awk '{print $16}' | tail
+  520  sort access.log | awk '{print $16}' | tail
+  521  sort access.log | awk '{print $15}' | tail
+  522  sort access.log | awk '{print $17}' | tail
+  523  cat access.log | uniq -c | awk '{print $16}' | tail
+  524  cat access.log | sort | uniq -c | awk '{print $16}' | tail
+  525  sort access.log | uniq -c | awk '{print $16}' | tail
+  526  cat access.log | uniq -c | awk '{print $16}' | tail
+  527  cat access.log
+  528  uniq -c test.txt
+  529  uniq -c access.log
+  530  cat access.log | awk'{print $12}'
+  531  cat access.log | awk '{print $12}'
+  532  cat access.log | awk '{print $11}'
+  533  sort access.log | awk '{print $11}'
+  534  sort --help
+  535  cat access.log | uniq | awk '{print $11}'
+  536  uniq access.log | awk '{print $11}'
+  537  cat access.log | awk '{print $11}' | sort
+  538  cat access.log | awk '{print $11}' | sort | uniq
+  539  cat access.log | awk '{print $11}' | sort | uniq -c
+  540  sort --help
+  541  cat access.log | awk '{print $11}' | sort -g | uniq -c
+  542  cat access.log | awk '{print $11}' | sort -n | uniq -c
+  543  cat access.log | awk '{print $11}' | sort -h | uniq -c
+  544  cat access.log | awk '{print $11}' | sort -h | uniq
+  545  cat access.log | awk '{print $11}' | sort | uniq -c
+  546  uniq --help
+  547  cat access.log | awk '{print $11}' | sort | uniq -c -n
+  548  cat access.log | awk '{print $11}' | sort | uniq -c | sort -n
+  549  cat access.log | awk '{print $11}' | sort | uniq -c | sort -n | tail -4
+  550  cat access.log 
+  551  cat access.log | awk '{print $5}'
+  552  cat access.log | awk '{print $4}' | head
+  553  date
+  554  date +%d
+  555  date +%m
+  556  date +%y
+  557  time
+  558  date +%t
+  559  time --help
+  560  cat access.log
+  561  cat access.log | awk '{print $4 " " $11}' | sort | uniq -c | sort -n | tail -4
+  562  ls -l
+  563  history > command_used_till_now.txt
