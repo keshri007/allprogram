@@ -24,3 +24,4 @@ public class palindrome{
 		System.out.println("the number is not plaindrome");
 	}
 }
+
